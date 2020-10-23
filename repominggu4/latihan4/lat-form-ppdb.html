@@ -4,8 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan Form PPDB | Webdas</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #form{
+            padding-top: 20px;
+            padding-bottom: 30px;
+            margin-right: 100px;
+            margin-left: 100px;
+            border: 3px solid black;
+        }
+    </style>
 </head>
 <body>
-    
+    <h3>FORMULIR PPDB JALUR ZONASI TAHUN 2020</h3>
+    <div id="form">
+    <form>
+        <table class="center" cellpadding="7">
+            <tr>
+                <th colspan="2">INFO PENDAFTARAN</th>
+            </tr>
+            <tr>
+                <td>NISN</td>
+                <td><input type="text" name="nisn" size="50"></td>
+            </tr>
+            <tr>
+                <td>Asal Sekolah</td>
+                <td><input type="text" name="asal-sekolah" size="50"></td>
+            </tr>
+            <tr>
+                <td>Tahun Lulus</td>
+                <td><input type="text" name="tahun-lulus" size="50"></td>
+            </tr>
+            <tr>
+                <th colspan="2">DATA CALON PESERTA</th>
+            </tr>
+
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" name="nama" size="50"></td>
+            </tr>
+            <tr>
+                <td>NIK</td>
+                <td><input type="text" name="nik" size="50"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">Sertakan: Foto Copy Akte Kelahiran yang Telah Dilegalisasi</td>
+            </tr>
+            <tr>
+                <td>Tempat/Tanggal lahir</td>
+                <td><input type="date" name="ttl" size="50"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="sex" value="Laki-laki"> Laki-laki
+                      <input type="radio" name="sex" value="Perempuan"> Perempuan </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat"cols="47" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>Desa/Kelurahan</td>
+                <td><input type="text" name="desa" id="" size="50"></td>
+            </tr>
+            <tr>
+                <td>Kecamatan</td>
+                <td><input type="text" name="kec" size="50"></td>
+            </tr>
+            <tr>
+                <td>Kabupaten</td>
+                <td><input type="text" name="kab" size="50"></td>
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td><input type="text" name="prov" size="50"></td>
+            </tr>
+            <tr>
+                <td>Email Aktif</td>
+                <td><input type="email" name="email" size="50"></td>
+            </tr>
+            <tr>
+                <th colspan="2">DATA ORANG TUA <br> (Lampirkan Kartu Keluarga) </th>
+            </tr>
+
+            <tr>
+                <td>Nomor Kartu Keluarga</td>
+                <td><input type="text" name="no-kk" size="50">
+            </tr>
+            <tr>
+                <td>Nama Ayah Kandung</td>
+                <td><input type="text" name="nama-ayah" size="50"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td><select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katholik">Katholik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                        <option value="konghuchu">Konghuchu</option>
+                        <option value="atheis">Atheis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td><input type="text" name="pekerjaan" size="50"></td>
+            </tr>
+            <tr>
+                <td>Nama Ibu Kandung</td>
+                <td><input type="text" name="nama-ibu" size="50"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td><select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katholik">Katholik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                        <option value="konghuchu">Konghuchu</option>
+                        <option value="atheis">Atheis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td><input type="text" name="pekerjaan" size="50"></td>
+            </tr>
+            <tr>
+                <td>Alamat Orang Tua</td>
+                <td><textarea name="alamat"cols="47" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>Desa/Kel.</td>
+                <td><input type="text" name="desa" size="50"></td>
+            </tr>
+            <tr>
+                <td>Kecamatan</td>
+                <td><input type="text" name="kec" size="50"></td>
+            </tr>
+            <tr>
+                <td>Kabupaten</td>
+                <td><input type="text" name="kab" size="50"></td>
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td><input type="text" name="prov" size="50"></td>
+            </tr>
+            <tr>
+                <th colspan="3"><input type="submit" value="KIRIM"></th>
+            </tr>
+        </table>
+    </form>
+    </div>
 </body>
 </html>
