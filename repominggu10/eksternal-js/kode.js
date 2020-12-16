@@ -1,0 +1,1 @@
+alert("Hallo, saya dipanggil di JS eksternal")
