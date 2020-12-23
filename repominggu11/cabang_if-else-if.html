@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 3 | Condition if else-if</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Input nilai anda: ");
+        var grade = "";
+
+        if(nilai >= 85) grade = "A"
+        else if(nilai >= 80) grade = "AB"
+        else if(nilai >= 75) grade = "B"
+        else if(nilai >= 70) grade = "BC"
+        else if(nilai >= 60) grade = "C"
+        else if(nilai >= 50) grade = "D"
+        else grade = "E";
+
+        document.write(`<h2>Grade anda adalah ${grade} </h2>`)
+
+    </script>
+</body>
+</html>

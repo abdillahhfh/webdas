@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 20 | Array Method</title>
+</head>
+<body>
+    <script>
+        const angka = [1,2,3,4,5,6,7,8,9];
+        
+        //method filter
+        //ambil data yang habis dibagi 2
+        const filteredArray = angka.filter(item => item % 2 === 0);
+        console.log(filteredArray);
+
+        //method includes
+        var tanaman = ["Padi","Kacang","Jagung","Kedelai"];
+            //cek apakah kacang ada dalam tanaman
+            var adaKacang = tanaman.includes("Kacang");
+            console.log(adaKacang);
+        
+            //apakah bayam ada?
+            var adaBayam = tanaman.includes("Bayam");
+            console.log(adaBayam)
+        
+        //method sort
+        var alfabet = ['a','f','z','u','v','k'];
+        var angka1 = [3,6,2,8,5,0];
+
+        console.log(alfabet.sort());
+        console.log(angka1.sort())
+
+
+
+    </script>
+</body>
+</html>

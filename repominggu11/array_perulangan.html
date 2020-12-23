@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 16 | Array Perulangan</title>
+</head>
+<body>
+    <script>
+        var mahasiswa = ["Sani",12176,"Teknik Infotmarika"];
+    </script>
+
+    <ul>
+        <li><script>document.write(mahasiswa[0])</script></li>
+        <li><script>document.write(mahasiswa[1])</script></li>
+        <li><script>document.write(mahasiswa[2])</script></li>
+        <script>
+            mahasiswa.forEach(mhs => {
+                document.write("<li>"+mhs+"</li>")
+            });
+
+        </script>
+    </ul>
+</body>
+</html>

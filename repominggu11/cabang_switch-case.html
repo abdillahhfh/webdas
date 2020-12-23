@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 4 | Switch Case</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("Anda beruntung, pilih 1-5 untuk mendapatkan hadiah");
+        var hadiah = "";
+        
+        switch(jawab){
+            case "1":
+                hadiah = "Roti";
+                break;
+            case "2":
+                hadiah = "Anggur";
+                break;
+            case "3":
+                hadiah = "Handphone";
+                break;
+            case "4":
+                hadiah = "Air mineral";
+                break;
+            case "5":
+                hadiah = "Teh";
+                break;
+            default:
+                document.write("<p> Tidak ada pilihan itu </p>");
+        }
+            if(hadiah === ""){
+                document.write("Anda tidak dapat hadiah");
+            } else {
+                document.write("<h2> Selamat, anda mendapat " + hadiah + "</h2>");
+            }
+    </script>
+</body>
+</html>
